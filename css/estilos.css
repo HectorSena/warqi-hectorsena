@@ -45,11 +45,11 @@ button:hover {
   background-color: #f8eeee; }
 
 .contenedor {
-  max-width: 1400px;
+  max-width: 1800px;
   margin: auto; }
 
 header {
-  background-color: #1d1c1c; }
+  background-color: rgba(191, 191, 191, 0.8); }
 
 .logo-header {
   margin: 0;
@@ -60,7 +60,8 @@ header {
 header .contenedor {
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  position: initial; }
 
 header nav {
   display: flex;
@@ -84,13 +85,37 @@ header a:hover {
   justify-content: center;
   text-align: center;
   height: 90vh;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/media/imagenes/bannerheronegro.png");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/media/imagenes/banner-heronegro.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center; }
 
 #hero h1 {
-  color: white; }
+  color: white;
+  font-size: 5em; }
+
+#somoswarqi .contenedor {
+  display: flex;
+  justify-content: space-evenly; }
+
+#somoswarqi .somoswarqi-texto {
+  width: 50%;
+  text-align: center;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+#somoswarqi h2 {
+  margin-top: 0; }
+
+@media (min-width: 760px) {
+  .img-contenedor {
+    background-image: url(/media/imagenes/warqi-somoswarqi.png);
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 500px; } }
 
 #somoswarqi .contenedor {
   text-align: center;
@@ -103,14 +128,15 @@ header a:hover {
   text-align: center; }
 
 #nuestros-servicios .contenedor {
-  padding: 150px 10px; }
+  padding: 120px 10px; }
 
 #nuestros-servicios h2 {
   margin-top: 0;
   font-size: 3em; }
 
 #nuestros-servicios p {
-  display: none; }
+  display: block;
+  margin-bottom: 80px; }
 
 #nuestros-servicios .carta {
   background-position: center center;
@@ -217,4 +243,97 @@ header a:hover {
 
 .grid-item:hover {
   filter: opacity(0.9);
-  transform: scale(1.04); }
+  transform: scale(1.04);
+  transform: rotate(0.3deg) scale(0.9); }
+
+@media (min-width: 720px) {
+  header {
+    position: absolute;
+    width: 100%; }
+  header .contenedor {
+    flex-direction: row;
+    justify-content: space-between; }
+  header nav {
+    flex-direction: row;
+    padding-bottom: 0;
+    padding-right: 20px; } }
+
+/* contactos */
+#contenedor-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5em;
+  margin: 0px;
+  text-align: center;
+  max-width: 760px;
+  max-height: 1080; }
+
+#contenedor-form h1 {
+  font-size: 45px; }
+
+#contenedor-form h3 {
+  font-size: 30px; }
+
+#contenedor-form .cont-form {
+  color: black;
+  background-color: #03030370;
+  box-shadow: 0 0 20px rgba(45, 43, 43, 0.564);
+  margin: 25px;
+  padding: 20px; }
+
+.form-info {
+  padding: 10px;
+  color: black;
+  background-color: #1e1e1d9f;
+  border-radius: 5px;
+  box-shadow: 0 0 20px #8079757e; }
+
+.form input,
+.form button,
+.form textarea {
+  width: 100%;
+  padding: 0.7em;
+  border: none;
+  background: none;
+  border-bottom: 1px solid white;
+  outline: none;
+  color: azure; }
+
+form button {
+  background: black;
+  border: 0;
+  text-transform: uppercase;
+  padding: 1em; }
+
+/* FOOTER */
+footer {
+  background-color: rgba(191, 191, 191, 0.8);
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+footer div {
+  margin: 5px;
+  padding: 10px;
+  align-items: center; }
+
+footer a {
+  text-decoration: none;
+  color: black;
+  margin: 3px; }
+
+footer span {
+  margin: 3px; }
+
+footer p {
+  font-size: 11px; }
+
+footer li {
+  margin: 10px; }
+
+@media (min-width: 720px) {
+  footer {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between; } }
