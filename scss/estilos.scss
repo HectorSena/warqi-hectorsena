@@ -87,7 +87,7 @@ header a:hover {
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
     )
-    ,url("/media/imagenes/banner-heronegro.png");
+    ,url("media/imagenes/banner-heronegro.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -116,7 +116,7 @@ header a:hover {
 }
 @media (min-width:760px){
 .img-contenedor {
-    background-image: url(/media/imagenes/warqi-somoswarqi.png);
+    background-image: url(media/imagenes/warqi-somoswarqi.png);
     background-size: cover;
     background-position: center center;
     height: 500px;
@@ -159,21 +159,21 @@ header a:hover {
     background-image: linear-gradient(0deg,
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5))
-    ,url("/media/imagenes/servicio-integral-hogar.jpeg");
+    ,url("media/imagenes/servicio-integral-hogar.jpeg");
 }
 
 .carta:nth-child(2) {
     background-image: linear-gradient(0deg,
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5))
-    ,url("/media/imagenes-galeria/quince.svg");
+    ,url("media/imagenes-galeria/quince.svg");
 }
 
 .carta:nth-child(3) {
     background-image: linear-gradient(0deg,
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5))
-    ,url("/media/imagenes/mantenimiento-de-hogares.jpeg");
+    ,url("media/imagenes/mantenimiento-de-hogares.jpeg");
 }
 
 #sobre-nosotros .contenedor {
@@ -186,7 +186,7 @@ header a:hover {
 }
 .nosotros-descripcion {
     color: rgb(0, 0, 0);
-    background-image: linear-gradient(2deg, rgba(220, 219, 219, 0.694), rgba(4, 0, 0, 0.8)), url("/media/imagenes/banner-footer7.png");
+    background-image: linear-gradient(2deg, rgba(220, 219, 219, 0.694), rgba(4, 0, 0, 0.8)), url("media/imagenes/banner-footer7.png");
     background-position: center center;
     background-size: cover;
     border-radius: 10px;
@@ -197,7 +197,7 @@ header a:hover {
 
 .nosotros-porque-elegirnos {
     color: rgb(255, 255, 255);
-    background-image: linear-gradient(8deg, rgba(0, 0, 0, 0.8), rgba(77, 76, 76, 0.8)), url("/media/imagenes/banner-footer8.png");
+    background-image: linear-gradient(8deg, rgba(0, 0, 0, 0.8), rgba(77, 76, 76, 0.8)), url("media/imagenes/banner-footer8.png");
     background-position: center center;
     background-size: cover;
     border-radius: 10px;
@@ -207,7 +207,7 @@ header a:hover {
 
 .nosotros-servicios {
     color: rgb(0, 0, 0);
-    background-image: linear-gradient(2deg, rgba(220, 219, 219, 0.694), rgba(4, 0, 0, 0.8)), url("/media/imagenes/banner-footer7.png");
+    background-image: linear-gradient(2deg, rgba(220, 219, 219, 0.694), rgba(4, 0, 0, 0.8)), url("media/imagenes/banner-footer7.png");
     background-position: center center;
     background-size: cover;
     border-radius: 10px;
@@ -216,7 +216,7 @@ header a:hover {
 }
 .nosotros-parrafo {
     color: rgb(255, 255, 255);
-    background-image: linear-gradient(8deg, rgba(0, 0, 0, 0.8), rgba(77, 76, 76, 0.8)), url("/media/imagenes/banner-footer8.png");
+    background-image: linear-gradient(8deg, rgba(0, 0, 0, 0.8), rgba(77, 76, 76, 0.8)), url("media/imagenes/banner-footer8.png");
     background-position: center center;
     background-size: cover;
     border-radius: 10px;
