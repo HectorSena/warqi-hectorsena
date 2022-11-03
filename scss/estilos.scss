@@ -84,7 +84,7 @@ header a:hover {
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
     )
-    ,url("/imagenes/banner-heronegro.png");
+    ,url("../imagenes/banner-heronegro.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -153,11 +153,11 @@ header a:hover {
 }
 
 .carta:first-child {
-    /* background-image: linear-gradient(0deg,
+    background-image: linear-gradient(0deg,
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5))
     ,
-    */url("/imagenes/servicio-integral-hogar-2.jpg");
+    url("./imagenes/servicio-integral-hogar-2.jpg");
 } 
 
 .carta:nth-child(2) {
