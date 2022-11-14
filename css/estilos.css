@@ -2,6 +2,82 @@
   margin: 0; }
 
 /* seccion blanca */
+body {
+  background: rgba(191, 191, 191, 0.697);
+  margin: 0; }
+
+.form {
+  width: 340px;
+  height: 540px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  box-shadow: 0 0 30px #000;
+  margin: calc(50vh - 220px) auto;
+  padding: 20px 30px;
+  max-width: calc(100vw - 40px);
+  box-sizing: border-box;
+  font-family: "montserrat", sans-serif;
+  position: relative; }
+
+#formulario h1 {
+  text-align: center;
+  margin: 3em;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+  padding: 1em; }
+
+.form h2 {
+  margin: 10px 0;
+  padding-bottom: 10px;
+  width: 180px;
+  color: black;
+  border-bottom: 3px solid rgba(232, 115, 5, 0.919); }
+
+input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background: none;
+  outline: none;
+  resize: none;
+  border: 0;
+  font-family: "montserrat", sans-serif;
+  transition: all .3s;
+  border-bottom: 2px solid rgba(232, 115, 5, 0.919); }
+
+input:focus {
+  border-bottom: 2px solid black; }
+
+p:before {
+  content: attr(type);
+  display: block;
+  margin: 28px 0 0;
+  font-size: 14px;
+  color: #222020; }
+
+.form button {
+  float: right;
+  padding: 8px 12px;
+  margin: 8px 0 0;
+  cursor: pointer;
+  transition: all .3s; }
+
+.form-div {
+  position: absolute;
+  bottom: -15px;
+  right: -20px;
+  background: rgba(0, 0, 0, 0.845);
+  color: white;
+  width: 320px;
+  padding: 16px 4px 16px 4px;
+  border-radius: 6px;
+  font-size: 12px;
+  box-shadow: 10px 10px 40px -14px black; }
+
+.form-div span {
+  margin: 2px 5px 0 10px; }
+
 html {
   scroll-behavior: smooth; }
 
@@ -75,13 +151,13 @@ header a:hover {
   align-items: center;
   justify-content: center;
   text-align: center;
-  height: 90vh;
+  height: 100vh;
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imagenes/banner-heronegro.png");
-  background-size: 200%;
+  background-size: 300%;
   background-repeat: unset;
   background-attachment: fixed;
   background-position: center center;
-  animation: movimiento 25s infinite linear alternate; }
+  animation: movimiento 30s infinite linear alternate; }
 
 @keyframes movimiento {
   from {
@@ -91,7 +167,7 @@ header a:hover {
 
 #hero h1 {
   color: white;
-  font-size: clamp(2.5rem, 8vw, 14rem); }
+  font-size: clamp(18px, 10vw, 80px); }
 
 #somoswarqi .contenedor {
   display: flex;
@@ -110,7 +186,7 @@ header a:hover {
   margin: 1em; }
 
 #somoswarqi h2 {
-  font-size: clamp(1.5rem, 5vw, 8em);
+  font-size: clamp(12px, 5vw, 24px);
   margin-top: 1em;
   margin-bottom: 0.5em; }
 
@@ -147,6 +223,7 @@ header a:hover {
     margin: 2em; } }
 
 #nuestros-servicios {
+  padding: 1em;
   background-color: #1e1e1e;
   color: white;
   text-align: center; }
@@ -289,54 +366,6 @@ header a:hover {
   header nav {
     flex-direction: row;
     padding-bottom: 0; } }
-
-/* contactos */
-#contenedor-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 5em;
-  margin: 0px;
-  text-align: center;
-  max-width: 760px;
-  max-height: 1080; }
-
-#contenedor-form h1 {
-  font-size: 45px; }
-
-#contenedor-form h3 {
-  font-size: 30px; }
-
-#contenedor-form .cont-form {
-  color: black;
-  background-color: #03030370;
-  box-shadow: 0 0 20px rgba(45, 43, 43, 0.564);
-  margin: 25px;
-  padding: 20px; }
-
-.form-info {
-  padding: 10px;
-  color: black;
-  background-color: #1e1e1d9f;
-  border-radius: 5px;
-  box-shadow: 0 0 20px #8079757e; }
-
-.form input,
-.form button,
-.form textarea {
-  width: 100%;
-  padding: 0.7em;
-  border: none;
-  background: none;
-  border-bottom: 1px solid white;
-  outline: none;
-  color: azure; }
-
-form button {
-  background: black;
-  border: 0;
-  text-transform: uppercase;
-  padding: 1em; }
 
 /* FOOTER */
 footer {

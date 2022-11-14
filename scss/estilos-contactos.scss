@@ -1,0 +1,77 @@
+body {
+    background: $colorwhitebg;
+    margin: 0;
+}
+.form {
+    width: 340px;
+    height: 540px;
+    background: rgba(255, 255, 255, 0.50);
+    border-radius: 8px;
+    box-shadow: 0 0 40px - 10px #000;
+    margin: calc(50vh - 220px) auto;
+    padding: 20px 30px;
+    max-width: calc(100vw - 40px);
+    box-sizing: border-box;
+    font-family: "montserrat", sans-serif;
+    position: relative;
+}
+#formulario h1 {
+    text-align: center;
+    margin: 3em;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.70);
+    border-radius: 5px;
+    padding: 1em;
+}
+.form h2 {
+    margin: 10px 0;
+    padding-bottom: 10px;
+    width: 180px;
+    color: rgb(0, 0, 0);
+    border-bottom: 3px solid rgba(232, 115, 5, 0.919);
+}
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: none;
+    outline: none;
+    resize: none;
+    border: 0;
+    font-family: "montserrat", sans-serif;
+    transition: all .3s;
+    border-bottom: 2px solid rgba(232, 115, 5, 0.919);
+}
+input:focus{
+    border-bottom:2px solid black;
+}
+
+p:before{
+    content: attr(type);
+    display: block;
+    margin: 28px 0 0;
+    font-size: 14px;
+    color: rgb(34, 32, 32);
+}
+.form button{
+    float: right;
+    padding: 8px 12px;
+    margin: 8px 0 0;
+    cursor: pointer;
+    transition: all .3s;
+}
+.form-div {
+    position: absolute;
+    bottom: -15px;
+    right: -20px;
+    background: rgba(0, 0, 0, 0.845);
+    color: white;
+    width: 320px;
+    padding: 16px 4px 16px 4px;
+    border-radius: 6px;
+    font-size: 12px;
+    box-shadow: 10px 10px 40px -14px rgb(0, 0, 0);
+}
+.form-div span{
+    margin: 2px 5px 0 10px;
+}
