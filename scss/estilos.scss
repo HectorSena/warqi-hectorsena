@@ -54,8 +54,8 @@ header {
     
 }
 .logo-header {
-    margin: 0;
-    padding: 0.7em;
+    margin: 5px;
+    padding: 5px;
     font-weight: bold;
     font-size: 2em;
     color: white;
@@ -73,12 +73,12 @@ header nav {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding-bottom: 2em;
+    padding-bottom: 1em;
 
 }
 
 header a {
-    padding: 1em;
+    padding: 10px;
     text-decoration: none;
     font-weight: bold;
     color: white;

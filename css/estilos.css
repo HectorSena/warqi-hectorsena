@@ -3,8 +3,7 @@
 
 /* seccion blanca */
 body {
-  background: rgba(191, 191, 191, 0.697);
-  margin: 0; }
+  background: rgba(191, 191, 191, 0.697); }
 
 .form {
   width: 340px;
@@ -34,7 +33,7 @@ body {
   color: black;
   border-bottom: 3px solid rgba(232, 115, 5, 0.919); }
 
-input {
+#formulario input {
   width: 100%;
   padding: 10px;
   box-sizing: border-box;
@@ -119,8 +118,8 @@ header {
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), #000000); }
 
 .logo-header {
-  margin: 0;
-  padding: 0.7em;
+  margin: 5px;
+  padding: 5px;
   font-weight: bold;
   font-size: 2em;
   color: white; }
@@ -138,10 +137,10 @@ header nav {
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding-bottom: 2em; }
+  padding-bottom: 1em; }
 
 header a {
-  padding: 1em;
+  padding: 10px;
   text-decoration: none;
   font-weight: bold;
   color: white; }

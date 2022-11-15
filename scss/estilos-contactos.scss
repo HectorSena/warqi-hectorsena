@@ -1,6 +1,5 @@
 body {
     background: $colorwhitebg;
-    margin: 0;
 }
 .form {
     width: 340px;
@@ -30,7 +29,7 @@ body {
     color: rgb(0, 0, 0);
     border-bottom: 3px solid rgba(232, 115, 5, 0.919);
 }
-input {
+#formulario input {
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
