@@ -8,7 +8,7 @@ body {
 .form {
   width: 340px;
   height: 540px;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.3);
   border-radius: 8px;
   box-shadow: 0 0 30px #000;
   margin: calc(50vh - 220px) auto;
@@ -31,7 +31,7 @@ body {
   padding-bottom: 10px;
   width: 180px;
   color: black;
-  border-bottom: 3px solid rgba(232, 115, 5, 0.919); }
+  border-bottom: 3px solid #f97c2e; }
 
 #formulario input {
   width: 100%;
@@ -43,7 +43,7 @@ body {
   border: 0;
   font-family: "montserrat", sans-serif;
   transition: all .3s;
-  border-bottom: 2px solid rgba(232, 115, 5, 0.919); }
+  border-bottom: 2px solid #f97c2e; }
 
 input:focus {
   border-bottom: 2px solid black; }
@@ -66,13 +66,15 @@ p:before {
   position: absolute;
   bottom: -15px;
   right: -20px;
-  background: rgba(0, 0, 0, 0.845);
-  color: white;
+  background: rgba(0, 0, 0, 0.1);
+  color: black;
   width: 320px;
   padding: 16px 4px 16px 4px;
   border-radius: 6px;
   font-size: 12px;
-  box-shadow: 10px 10px 40px -14px black; }
+  box-shadow: 10px 10px 40px -14px black;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px); }
 
 .form-div span {
   margin: 2px 5px 0 10px; }
@@ -101,10 +103,10 @@ button {
   margin: 1rem;
   padding: 2em;
   border-radius: 5px;
-  border: 1px solid black;
+  border: 1px solid rgba(0, 0, 0, 0.2);
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.57), #f97c2eb4);
   color: #1a1818;
-  box-shadow: 2px 2px 10px #636260; }
+  box-shadow: 2px 2px 10px rgba(99, 98, 96, 0.8); }
 
 button:hover {
   color: #f97c2e;
@@ -118,11 +120,12 @@ header {
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), #000000); }
 
 .logo-header {
-  margin: 5px;
-  padding: 5px;
+  margin-bottom: 0.6em;
+  padding: 0.3em;
   font-weight: bold;
   font-size: 2em;
-  color: white; }
+  color: white;
+  text-align: center; }
 
 .logo-header:hover {
   transform: rotate(-1deg);
@@ -143,7 +146,8 @@ header a {
   padding: 10px;
   text-decoration: none;
   font-weight: bold;
-  color: white; }
+  color: white;
+  align-items: center; }
 
 header a:hover {
   color: #f97c2e; }
@@ -372,7 +376,7 @@ header a:hover {
 
 /* FOOTER */
 footer {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), #000000);
+  background-image: linear-gradient(6deg, #000000, rgba(0, 0, 0, 0.3));
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -391,7 +395,7 @@ footer span {
   margin: 3px; }
 
 footer p {
-  font-size: 0.5em;
+  font-size: clamp(12px, 10vw, 24px);
   color: #f97c2e; }
 
 footer li {

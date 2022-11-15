@@ -2,6 +2,8 @@ $coloruno: #f97c2e;
 $gradientblackwhite:linear-gradient(0deg,
     rgba(0, 0, 0, 0.300),
     #000000);
-
+$gradientwhiteblack:linear-gradient(6deg,
+    #000000,
+    rgba(0, 0, 0, 0.300));
 /* seccion blanca */
 $colorwhitebg: rgba(191, 191, 191, 0.697);
